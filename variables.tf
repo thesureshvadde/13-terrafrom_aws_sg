@@ -20,4 +20,5 @@ variable "vpc_id" {
 
 variable "ingress" {
   type = list
+  default = []
 }
